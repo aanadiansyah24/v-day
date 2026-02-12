@@ -140,4 +140,6 @@ function runAway() {
 
     noBtn.style.position = 'fixed'
     noBtn.style.left = `${randomX}px`
-    noBtn.style.t
+    noBtn.style.top = `${randomY}px`
+    noBtn.style.zIndex = '50'
+}
